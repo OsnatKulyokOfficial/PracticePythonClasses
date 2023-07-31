@@ -1,0 +1,46 @@
+# Python-specific
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyz
+*.pyw
+*.pyz/
+*.egg-info/
+dist/
+build/
+*.egg
+*.whl
+*.o
+
+# Editor-specific
+.vscode/
+*.vscode/
+*.pydevproject
+.idea/
+
+# Other
+*.pyproj
+*.DS_Store
+*.swp
+*.swo
+*.log
+*.cache
+*.bak
+*.tmp
+*.out
+*.env
+*.env.*
+*.pydevproject
+*.env
+*.env.bak
+*.vscode
+*.vscode/*
+
+# Ignore compiled extensions (e.g., C extensions compiled with Cython)
+*.c
+*.h
+*.so
+
+# Ignore the virtual environment (if using venv or virtualenv)
+venv/
